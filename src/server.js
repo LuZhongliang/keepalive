@@ -13,14 +13,14 @@ var log4js_config = require("./log4js.json");
 var logger = log4js.getLogger('log_file');
 
 //长连接服务配置
-var HOST = '101.201.209.132';
+var HOST = '127.0.0.1';
 var PORT = 6969;
 
 // 测试环境 Redis 配置
-var REDIS_HSOT = '101.201.209.132';
+var REDIS_HSOT = '127.0.0.1';
 var REDIS_PORT = 6379;
-var REDIS_PASSWORD = 'zhst08651wnjhyxtdgsAwqsxx212';
-var REDIS_DB = 7;
+var REDIS_PASSWORD = 'password';
+var REDIS_DB = 1;
 
 var SALT = "abcjzb_salt";
 
